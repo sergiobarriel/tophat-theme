@@ -27,7 +27,7 @@ Then open your `hugo.toml` file and add the following tag:
 
 Run these commands to create a Hugo site with the [tophat](https://github.com/sergiobarriel/tophat-theme) theme
 
-```
+```shell
 hugo new site my-blog
 cd my-blog
 git init
@@ -46,7 +46,7 @@ If you want to update the theme with the latest changes just run the command
 
 You should configure minimal options on your `hugo.toml` file:
 
-```
+```toml
 theme = "TopHat"
 title = "Your blog name"
 baseURL = "https://example.com/"
@@ -57,7 +57,7 @@ paginate = 5
 The default pagination is 10 items, but you can set a different number.
 
 ### Parameters
-```
+```toml
 [params]
   main = "post"
   featured = true
@@ -72,7 +72,7 @@ The default pagination is 10 items, but you can set a different number.
 
 ### Menus
 
-```
+```toml
 [menu]
 
   [[menu.main]]
@@ -107,7 +107,7 @@ If you want to track telemetry from Google Analytics just add the `googleAnalyti
 
 You can customize the highlight configuration by overriding options on hugo.toml file according to these [params](https://gohugo.io/getting-started/configuration-markup/#highlight)
 
-```
+```toml
 [markup]
   [markup.highlight]
     anchorLineNos = false
