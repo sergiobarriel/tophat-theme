@@ -59,6 +59,7 @@ The default pagination is 10 items, but you can set a different number.
 [params]
   main = "post"
   featured = true
+  description = "Your blog description"
 ```
 
 ### Menus
@@ -90,7 +91,7 @@ The default pagination is 10 items, but you can set a different number.
 
 ### Google Analytics
 
-Add the `googleAnalytics` tag on your hugo.toml file
+If you want to track telemetry from Google Analytics just add the `googleAnalytics` tag on your hugo.toml file
 
 `googleAnalytics = "G-XXXXXXXXXX"`
 
@@ -118,7 +119,7 @@ You can customize the highlight configuration by overriding options on hugo.toml
 
 See the [Style Gallery](https://xyproto.github.io/splash/docs/all.html#friendly) for a full overview of available styles and how they may appear.
 
-## CSS /SCSS Styles
+## CSS / SCSS Styles
 
 There are some `scss` files inside `assets/scss` folder, so you can customize the styles as you wish and then transpile by using [sass](https://sass-lang.com/dart-sass/) command
 
