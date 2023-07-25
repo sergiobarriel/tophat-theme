@@ -44,6 +44,8 @@ If you want to update the theme with the latest changes just run the command
 
 ### Options
 
+You should configure minimal options on your `hugo.toml` file:
+
 ```
 theme = "TopHat"
 title = "Your blog name"
@@ -60,6 +62,12 @@ The default pagination is 10 items, but you can set a different number.
   main = "post"
   featured = true
   description = "Your blog description"
+
+  # You can customize the visibility of some elements like date, reading time, words counter and tags inside article by setting true or false
+  show_date_on_article = true
+  show_reading_time_on_article = true
+  show_words_count_on_article = true
+  show_tags_on_article = true  
 ```
 
 ### Menus
