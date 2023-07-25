@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.main) }}
+
+<div class="index">
+
+    {{ range $paginator.Pages }}
+
+    <article {{ with .Params.featured }} class="featured" {{ end }}>
+
+      {{ partial "meta.html" . }}
+
+      <div class="article-header">
+        
+        <a href="{{ .Permalink }}">
+          <h1 class="article-title">{{ .Title }}</h2>
+        </a>        
+        
+        <h2 class="article-excerpt">{{ .Params.excerpt }}</h2>
+
+      </div>
+      
+      
+    </article>
+    
+    {{ end }}
+    
+</div>
+
+{{ partial "pagination" . }}
+
+{{ end }}

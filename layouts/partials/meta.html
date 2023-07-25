@@ -1,0 +1,27 @@
+<div class="article-meta">
+        
+    <ul class="article-info">
+        <li class="time" style="{{ with not .Site.Params.show_date_on_article }} display:none; {{ end }}">
+            <time class="time">{{ .Date.Format "02 Jan 2006" }}</time>
+        </li>
+        <li class="reading-time" style="{{ with not .Site.Params.show_reading_time_on_article }} display:none; {{ end }}">
+            <span class="material-icons">timer</span>{{ .ReadingTime }} min read
+        </li>
+        <li class="words-count" style="{{ with not .Site.Params.show_words_count_on_article }} display:none; {{ end }}">
+            <span class="material-icons">article</span>{{ .WordCount }} words
+        </li>
+    </ul>
+
+    <ul class="article-tags" style="{{ with not .Site.Params.show_tags_on_article }} display:none; {{ end }}">
+
+        {{ if isset .Params "tags" }}
+            {{ range .Params.tags }}
+                <li>
+                    <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>#{{ . }}</a>
+                </li>
+            {{ end }}
+        {{ end }}     
+
+    </ul>
+
+</div>

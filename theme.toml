@@ -1,0 +1,12 @@
+name = "TopHat"
+license = "MIT"
+licenselink = "https://github.com/sergiobarriel/tophat-theme/LICENSE"
+description = "A simple theme for Hugo just for blogging"
+homepage = "https://github.com/sergiobarriel/tophat-theme"
+tags = ["blog", "minimalism"]
+features = ["syntax highlighting"]
+min_version = "0.115.2"
+
+[author]
+  name = "Sergio Barriel"
+  homepage = "https://twitter.com/sergiobarriel"

@@ -1,0 +1,56 @@
+<nav class="blog-navigation">
+
+  <div class="left">
+    
+      <div class="blog-logo">
+        
+        {{ $logo := resources.Get "./img/logo.png" }}
+
+        <a href='{{ "" | relURL }}' title="{{ .Site.Title }}">
+          <img src="{{ $logo.Permalink }}" alt="{{ .Site.Title }}">
+        </a>
+
+      </div>
+    
+      <div class="blog-info">
+          <div class="blog-title">
+            <a href='{{ "" | relURL }}' title="{{ .Site.Title }}">
+              <h1>{{ .Site.Title }}</h1>
+            </a>
+          </div>
+    
+          <div class="blog-description">
+            <a href='{{ "" | relURL }}' title="{{ .Site.Title }}">
+              <h2>{{ .Site.Params.description }}</h2>
+            </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="right">
+
+    <div class="blog-links">
+      
+      {{ with .Site.Menus.main }}
+
+      <ul class="links">
+
+        {{ range . }}<li class="item page"><a href='{{.URL}}' title="{{ .Name }}">{{ .Name }}</a></li>{{ end }}
+
+      {{ end }}
+      
+      {{ with .Site.Menus.social }}
+      
+        {{ range . }}<li class="item social"><a href='{{.URL}}' title="{{ .Name }}" target="_blank">{{ .Name }}</a></li>{{ end }}
+
+      </ul>
+      
+      {{ end }}
+
+    </div>
+
+  </div>
+
+
+</nav>

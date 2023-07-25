@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+{{ hugo.Generator }}
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{{ $styles := resources.Get "./css/styles.css" }}
+<link href="{{ $styles.Permalink }}" rel="stylesheet">
+
+<title>{{ .Site.Title }}</title>
+
+{{ template "_internal/google_analytics.html" . }}

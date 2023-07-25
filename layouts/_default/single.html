@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div class="single">
+
+    <article>
+
+        {{ partial "meta.html" . }}
+                      
+        <div class="article-header">
+            <h1 class="article-title">{{ .Title }}</h1>          
+            <h2 class="article-excerpt">{{ .Params.excerpt }}</h2>  
+        </div>
+
+        <div class="article-content">
+            {{ .Content }}
+        </div>
+
+    </article>
+
+</div>
+
+{{ end }}

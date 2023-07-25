@@ -1,0 +1,61 @@
+@import 'variables';
+
+@media screen and (max-width: 850px) {
+
+    html {
+        body  {
+            div.content {
+
+                width: 100%;
+
+                nav.blog-navigation {
+                    .left {
+
+                    }
+
+                    .right {
+                        div.blog-links {
+                            ul {
+                                li {
+                                    &.page {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                article, .single article {
+                    div.article-meta {
+                        ul.article-info {
+                            li {
+                                &.reading-time {
+                                    display: none;
+                                }
+
+                                &.words-count {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        ul.article-tags {
+                            li {
+                               
+                            }
+                        }
+                    }
+
+                    div.article-header {
+
+                    }
+
+                    div.article-content {
+
+                    }
+                }
+            }
+        }
+    }
+}
