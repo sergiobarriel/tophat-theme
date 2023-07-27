@@ -204,6 +204,9 @@ html body div.content article div.article-content p em, html body div.content .s
 html body div.content article div.article-content .highlight pre, html body div.content .single article div.article-content .highlight pre {
   padding: 5px;
 }
+html body div.content article div.article-content img, html body div.content .single article div.article-content img {
+  width: 100%;
+}
 html body div.content div.tag p.term span {
   color: #c33dd3;
 }
