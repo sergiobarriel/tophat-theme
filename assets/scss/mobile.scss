@@ -16,10 +16,14 @@
                     .right {
                         div.blog-links {
                             ul {
+
+                                margin-right: $regular-margin;
+
                                 li {
 
                                     display: inherit !important;
-
+                                    margin-bottom: $small-margin;
+                                    
                                     &.page {
                                         display: none;
                                     }
@@ -41,7 +45,7 @@
                         ul.article-info {
 
                             margin: 0px 0px $medium-margin 0px;
-                            
+
                             li {
                                 &.reading-time {
                                     

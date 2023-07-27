@@ -263,8 +263,12 @@ html body div.content footer a:hover {
   html body div.content {
     width: 100%;
   }
+  html body div.content nav.blog-navigation .right div.blog-links ul {
+    margin-right: 15px;
+  }
   html body div.content nav.blog-navigation .right div.blog-links ul li {
     display: inherit !important;
+    margin-bottom: 5px;
   }
   html body div.content nav.blog-navigation .right div.blog-links ul li.page {
     display: none;
