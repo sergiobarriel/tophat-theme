@@ -27,7 +27,7 @@ Then open your `hugo.toml` file and add the following tag:
 
 Run these commands to create a Hugo site with the [tophat](https://github.com/sergiobarriel/tophat-theme) theme
 
-```
+```shell
 hugo new site my-blog
 cd my-blog
 git init
@@ -44,7 +44,9 @@ If you want to update the theme with the latest changes just run the command
 
 ### Options
 
-```
+You should configure minimal options on your `hugo.toml` file:
+
+```toml
 theme = "TopHat"
 title = "Your blog name"
 baseURL = "https://example.com/"
@@ -55,15 +57,22 @@ paginate = 5
 The default pagination is 10 items, but you can set a different number.
 
 ### Parameters
-```
+```toml
 [params]
   main = "post"
   featured = true
+  description = "Your blog description"
+
+  # You can customize the visibility of some elements like date, reading time, words counter and tags inside article by setting true or false
+  show_date_on_article = true
+  show_reading_time_on_article = true
+  show_words_count_on_article = true
+  show_tags_on_article = true  
 ```
 
 ### Menus
 
-```
+```toml
 [menu]
 
   [[menu.main]]
@@ -90,7 +99,7 @@ The default pagination is 10 items, but you can set a different number.
 
 ### Google Analytics
 
-Add the `googleAnalytics` tag on your hugo.toml file
+If you want to track telemetry from Google Analytics just add the `googleAnalytics` tag on your hugo.toml file
 
 `googleAnalytics = "G-XXXXXXXXXX"`
 
@@ -98,7 +107,7 @@ Add the `googleAnalytics` tag on your hugo.toml file
 
 You can customize the highlight configuration by overriding options on hugo.toml file according to these [params](https://gohugo.io/getting-started/configuration-markup/#highlight)
 
-```
+```toml
 [markup]
   [markup.highlight]
     anchorLineNos = false
@@ -118,7 +127,7 @@ You can customize the highlight configuration by overriding options on hugo.toml
 
 See the [Style Gallery](https://xyproto.github.io/splash/docs/all.html#friendly) for a full overview of available styles and how they may appear.
 
-## CSS /SCSS Styles
+## CSS / SCSS Styles
 
 There are some `scss` files inside `assets/scss` folder, so you can customize the styles as you wish and then transpile by using [sass](https://sass-lang.com/dart-sass/) command
 
