@@ -132,6 +132,7 @@ html body div.content article div.article-meta ul.article-tags, html body div.co
 }
 html body div.content article div.article-meta ul.article-tags li, html body div.content .single article div.article-meta ul.article-tags li {
   display: inline-block;
+  margin-left: 5px;
 }
 html body div.content article div.article-meta ul.article-tags li a, html body div.content .single article div.article-meta ul.article-tags li a {
   color: #c33dd3;
@@ -201,7 +202,7 @@ html body div.content article div.article-content p em, html body div.content .s
   margin-right: 3px;
 }
 html body div.content article div.article-content .highlight pre, html body div.content .single article div.article-content .highlight pre {
-  padding: 5px !important;
+  padding: 5px;
 }
 html body div.content div.tag p.term span {
   color: #c33dd3;
