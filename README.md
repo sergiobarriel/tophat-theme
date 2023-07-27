@@ -2,7 +2,7 @@
 
 [Top Hat](https://github.com/sergiobarriel/tophat-theme) it's a simple [Hugo](https://gohugo.io/) theme just for blogging.
 
-![screenshot](https://github.com/sergiobarriel/tophat-theme/blob/main/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/sergiobarriel/tophat-theme/main/images/screenshot.png)
 
 ## Live view
 
