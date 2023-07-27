@@ -18,7 +18,7 @@
                             ul {
                                 li {
 
-                                    display: inherit;
+                                    display: inherit !important;
 
                                     &.page {
                                         display: none;
@@ -41,11 +41,11 @@
                         ul.article-info {
                             li {
                                 &.reading-time {
-                                    display: none;
+                                    
                                 }
 
                                 &.words-count {
-                                    display: none;
+                                    
                                 }
                             }
                         }

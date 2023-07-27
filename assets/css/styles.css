@@ -264,7 +264,7 @@ html body div.content footer a:hover {
     width: 100%;
   }
   html body div.content nav.blog-navigation .right div.blog-links ul li {
-    display: inherit;
+    display: inherit !important;
   }
   html body div.content nav.blog-navigation .right div.blog-links ul li.page {
     display: none;
@@ -274,12 +274,6 @@ html body div.content footer a:hover {
   }
   html body div.content article div.article-meta, html body div.content .single article div.article-meta {
     display: inherit;
-  }
-  html body div.content article div.article-meta ul.article-info li.reading-time, html body div.content .single article div.article-meta ul.article-info li.reading-time {
-    display: none;
-  }
-  html body div.content article div.article-meta ul.article-info li.words-count, html body div.content .single article div.article-meta ul.article-info li.words-count {
-    display: none;
   }
   html body div.content article div.article-header a h1.article-title, html body div.content .single article div.article-header a h1.article-title {
     margin-bottom: 10px;
