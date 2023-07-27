@@ -91,7 +91,8 @@ html {
                         list-style-type: none;
                         font-family: $secondary-font;
                         font-size: $regular-font-size;
-
+                        padding: 0px;
+                        
                         li.item {
                             display: inline-block;
 
@@ -188,7 +189,7 @@ html {
 
                         li {
                             display: inline-block;
-                            margin-left: 5px;
+                            margin-right: $small-margin;
 
                             a {
                                 color: $primary-accent-color;

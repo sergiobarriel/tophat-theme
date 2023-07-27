@@ -63,6 +63,7 @@ html body div.content nav.blog-navigation .right ul.links {
   list-style-type: none;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
+  padding: 0px;
 }
 html body div.content nav.blog-navigation .right ul.links li.item {
   display: inline-block;
@@ -133,7 +134,7 @@ html body div.content article div.article-meta ul.article-tags, html body div.co
 }
 html body div.content article div.article-meta ul.article-tags li, html body div.content .single article div.article-meta ul.article-tags li {
   display: inline-block;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 html body div.content article div.article-meta ul.article-tags li a, html body div.content .single article div.article-meta ul.article-tags li a {
   color: #c33dd3;
@@ -265,6 +266,9 @@ html body div.content footer a:hover {
   html body div.content nav.blog-navigation .right div.blog-links ul li.page {
     display: none;
   }
+  html body div.content nav.blog-navigation .right div.blog-links ul li:after {
+    display: none;
+  }
   html body div.content article div.article-meta, html body div.content .single article div.article-meta {
     display: inherit;
   }
@@ -273,6 +277,9 @@ html body div.content footer a:hover {
   }
   html body div.content article div.article-meta ul.article-info li.words-count, html body div.content .single article div.article-meta ul.article-info li.words-count {
     display: none;
+  }
+  html body div.content article div.article-header a h1, html body div.content .single article div.article-header a h1 {
+    margin-bottom: 10px;
   }
 }
 

@@ -20,6 +20,10 @@
                                     &.page {
                                         display: none;
                                     }
+
+                                    &:after {
+                                        display: none;
+                                    }
                                 }
                             }
                         }
@@ -51,7 +55,11 @@
                     }
 
                     div.article-header {
-
+                        a {
+                            h1 {
+                                margin-bottom: $medium-margin;
+                            }
+                        }
                     }
 
                     div.article-content {
