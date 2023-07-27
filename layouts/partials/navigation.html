@@ -31,22 +31,22 @@
   <div class="right">
 
     <div class="blog-links">
-      
-      {{ with .Site.Menus.main }}
 
       <ul class="links">
 
-        {{ range . }}<li class="item page"><a href='{{.URL}}' title="{{ .Name }}">{{ .Name }}</a></li>{{ end }}
+        {{ with .Site.Menus.main }}
 
-      {{ end }}
-      
-      {{ with .Site.Menus.social }}
-      
-        {{ range . }}<li class="item social"><a href='{{.URL}}' title="{{ .Name }}" target="_blank">{{ .Name }}</a></li>{{ end }}
+          {{ range . }}<li class="item page"><a href='{{.URL}}' title="{{ .Name }}">{{ .Name }}</a></li>{{ end }}
+
+        {{ end }}
+        
+        {{ with .Site.Menus.social }}
+        
+          {{ range . }}<li class="item social"><a href='{{.URL}}' title="{{ .Name }}" target="_blank">{{ .Name }}</a></li>{{ end }}
+        
+        {{ end }}
 
       </ul>
-      
-      {{ end }}
 
     </div>
 
