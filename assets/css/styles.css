@@ -281,6 +281,9 @@ html body div.content footer a:hover {
   html body div.content article div.article-header h1.article-title, html body div.content .single article div.article-header h1.article-title {
     margin-bottom: 10px;
   }
+  html body div.content footer.footer {
+    padding: 0px 15px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
