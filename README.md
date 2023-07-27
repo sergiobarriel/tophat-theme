@@ -4,6 +4,10 @@
 
 ![screenshot](https://github.com/sergiobarriel/tophat-theme/blob/main/images/screenshot.png)
 
+## Live view
+
+My own blog [nohat.dev](https://www.nohat.dev) uses this theme
+
 ## Features
 
 It supports:
