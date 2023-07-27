@@ -265,6 +265,9 @@ html body div.content footer a:hover {
   html body div.content nav.blog-navigation .right div.blog-links ul li.page {
     display: none;
   }
+  html body div.content article div.article-meta, html body div.content .single article div.article-meta {
+    display: inherit;
+  }
   html body div.content article div.article-meta ul.article-info li.reading-time, html body div.content .single article div.article-meta ul.article-info li.reading-time {
     display: none;
   }
