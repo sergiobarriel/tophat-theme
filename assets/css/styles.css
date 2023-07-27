@@ -129,6 +129,7 @@ html body div.content article div.article-meta ul.article-tags, html body div.co
   font-family: "Open Sans", sans-serif;
   list-style-type: none;
   margin: 0px;
+  padding: 0px;
 }
 html body div.content article div.article-meta ul.article-tags li, html body div.content .single article div.article-meta ul.article-tags li {
   display: inline-block;
