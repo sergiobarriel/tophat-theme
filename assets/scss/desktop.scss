@@ -92,7 +92,7 @@ html {
                         font-family: $secondary-font;
                         font-size: $regular-font-size;
                         padding: 0px;
-                        
+
                         li.item {
                             display: inline-block;
 
@@ -210,7 +210,7 @@ html {
                     h1.article-title {
                         font-size: $super-big-font-size;
                         font-family: $secondary-font;
-                        margin: 0px;
+                        margin: 0px 0px $medium-margin 0px;
                     }
 
                     a {
@@ -225,7 +225,7 @@ html {
                         h1.article-title {
                             font-size: $super-big-font-size;
                             font-family: $secondary-font;
-                            margin: 0px;
+                            margin: 0px 0px $medium-margin 0px;
                         }
             
                     }

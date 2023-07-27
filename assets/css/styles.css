@@ -149,7 +149,7 @@ html body div.content article div.article-header, html body div.content .single 
 html body div.content article div.article-header h1.article-title, html body div.content .single article div.article-header h1.article-title {
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
 }
 html body div.content article div.article-header a, html body div.content .single article div.article-header a {
   text-decoration: none;
@@ -161,7 +161,7 @@ html body div.content article div.article-header a:hover, html body div.content 
 html body div.content article div.article-header a h1.article-title, html body div.content .single article div.article-header a h1.article-title {
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
 }
 html body div.content article div.article-header h2.article-excerpt, html body div.content .single article div.article-header h2.article-excerpt {
   color: #757575;
@@ -274,12 +274,6 @@ html body div.content footer a:hover {
   }
   html body div.content article div.article-meta, html body div.content .single article div.article-meta {
     display: inherit;
-  }
-  html body div.content article div.article-header a h1.article-title, html body div.content .single article div.article-header a h1.article-title {
-    margin-bottom: 10px;
-  }
-  html body div.content article div.article-header h1.article-title, html body div.content .single article div.article-header h1.article-title {
-    margin-bottom: 10px;
   }
   html body div.content footer.footer {
     padding: 0px 15px;
