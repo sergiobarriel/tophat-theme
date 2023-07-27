@@ -275,6 +275,9 @@ html body div.content footer a:hover {
   html body div.content article div.article-meta, html body div.content .single article div.article-meta {
     display: inherit;
   }
+  html body div.content article div.article-meta ul.article-info, html body div.content .single article div.article-meta ul.article-info {
+    margin: 0px 0px 10px 0px;
+  }
   html body div.content footer.footer {
     padding: 0px 15px;
   }
