@@ -2,11 +2,15 @@
 
 <div class="list">
 
+    <p class="text">here are the tags</span></p>
+
     <ul class="tags">
       
       {{ range .Data.Pages }}
       
-      <li class="tag">{{ .Title }}</li>
+      <li class="tag">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       
       {{ end }}
 
