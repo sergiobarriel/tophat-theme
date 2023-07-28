@@ -208,6 +208,7 @@ html body div.content article div.article-content .highlight pre, html body div.
 }
 html body div.content article div.article-content img, html body div.content .single article div.article-content img {
   width: 100%;
+  border: 5px solid #f7f7f7;
 }
 html body div.content div.tag p {
   display: inline-block;
