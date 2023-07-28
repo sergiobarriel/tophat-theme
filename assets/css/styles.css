@@ -209,6 +209,9 @@ html body div.content article div.article-content .highlight pre, html body div.
 html body div.content article div.article-content img, html body div.content .single article div.article-content img {
   width: 100%;
 }
+html body div.content div.tag p {
+  display: inline-block;
+}
 html body div.content div.tag p.term span {
   color: #c33dd3;
 }
@@ -217,6 +220,12 @@ html body div.content div.tag p.term span:before {
   margin-left: 5px;
 }
 html body div.content div.tag p.term a {
+  color: #c33dd3;
+}
+html body div.content div.tag p.all {
+  float: right;
+}
+html body div.content div.tag p.all a {
   color: #c33dd3;
 }
 html body div.content div.list ul.tags {

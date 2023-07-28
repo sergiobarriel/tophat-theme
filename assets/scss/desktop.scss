@@ -310,20 +310,34 @@ html {
 
             div.tag {
 
-                p.term {
-                    span {
-                        color: $primary-accent-color;
+                p {
+                    display: inline-block;
 
-                        &:before {
-                            content: "#";
-                            margin-left: 5px;
+                    &.term {
+                        span {
+                            color: $primary-accent-color;
+    
+                            &:before {
+                                content: "#";
+                                margin-left: 5px;
+                            }
+                        }
+    
+                        a {
+                            color: $primary-accent-color;
                         }
                     }
-
-                    a {
-                        color: $primary-accent-color;
-                    }
+    
+                    &.all {
+                        float: right;
+                        
+                        a {
+                            color: $primary-accent-color;
+                        }
+                    }                    
                 }
+
+               
 
             }
 
