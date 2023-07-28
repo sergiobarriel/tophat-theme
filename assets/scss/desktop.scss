@@ -328,7 +328,7 @@ html {
                 p.text {
 
                 }
-                
+
                 ul.tags {
 
                     list-style-type: none;
@@ -337,6 +337,7 @@ html {
                     li.tag {
                         
                         display: inline-block;
+                        margin-right: $medium-margin;
 
                         a {
                             color: $primary-accent-color;

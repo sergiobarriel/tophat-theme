@@ -222,6 +222,7 @@ html body div.content div.list ul.tags {
 }
 html body div.content div.list ul.tags li.tag {
   display: inline-block;
+  margin-right: 10px;
 }
 html body div.content div.list ul.tags li.tag a {
   color: #c33dd3;
