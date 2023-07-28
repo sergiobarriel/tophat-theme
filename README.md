@@ -19,7 +19,7 @@ It supports:
 
 ## How to install
 
-You can use the theme in by two flavors, [downloading files from repository](https://github.com/sergiobarriel/tophat-theme#download-files-from-repository) or [using git submodule ](https://github.com/sergiobarriel/tophat-theme#use-git-submodule)
+You can use the theme in by two flavors, [downloading files from repository](#download-files-from-repository) or [using git submodule ](#use-git-submodule)
 
 ### Download files from repository
 
