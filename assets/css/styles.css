@@ -216,6 +216,16 @@ html body div.content div.tag p.term span:before {
   content: "#";
   margin-left: 5px;
 }
+html body div.content div.list ul.tags {
+  list-style-type: none;
+  padding: 0px;
+}
+html body div.content div.list ul.tags li.tag {
+  display: inline-block;
+}
+html body div.content div.list ul.tags li.tag a {
+  color: #c33dd3;
+}
 html body div.content div.pagination {
   flex-direction: row;
   flex-wrap: nowrap;

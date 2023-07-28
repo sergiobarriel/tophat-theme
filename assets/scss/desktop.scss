@@ -323,6 +323,24 @@ html {
 
             }
 
+            div.list {
+                
+                ul.tags {
+
+                    list-style-type: none;
+                    padding: 0px;
+
+                    li.tag {
+                        
+                        display: inline-block;
+
+                        a {
+                            color: $primary-accent-color;
+                        }
+                    }
+                }
+            }
+
             div.pagination {
 
                 flex-direction: row;
