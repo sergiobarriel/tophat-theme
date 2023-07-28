@@ -6,15 +6,11 @@
 
     <ul class="tags">
       
-      {{ range .Data.Pages }}
-      
-      {{ .Count }}
-      
-      <li class="tag">
-        <a href="{{ .Permalink }}">#{{ .Title }}</a>
-      </li>
-      
-      {{ end }}
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <li class="tag">
+          <a href="/tags/{{ $name | urlize }}">#{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
+        </li>    
+      {{end}}
 
     </ul>
     
