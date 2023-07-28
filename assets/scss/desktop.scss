@@ -336,7 +336,12 @@ html {
                 ul.tags {
 
                     list-style-type: none;
-                    padding: 0px;
+  
+                    border: $default-border-size solid $secondary-color-light;
+                    border-radius: 0px;
+                    padding: $regular-padding;
+                    margin-bottom: $regular-margin;
+                    background-color: $article-background-color;
 
                     li.tag {
                         
