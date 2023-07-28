@@ -133,7 +133,7 @@ You can customize the highlight configuration by overriding options on hugo.toml
 
 See the [Style Gallery](https://xyproto.github.io/splash/docs/all.html#friendly) for a full overview of available styles and how they may appear.
 
-## CSS / SCSS Styles
+## Customize styles
 
 There are some `scss` files inside `assets/scss` folder, so you can customize the styles as you wish and then transpile by using [sass](https://sass-lang.com/dart-sass/) command
 
