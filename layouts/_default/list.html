@@ -2,13 +2,13 @@
 
 <div class="list">
 
-    <p class="text">here are all the tags</span></p>
+    <p class="text">Tags</span></p>
 
     <ul class="tags">
       
       {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
         <li class="tag">
-          <a href="/tags/{{ $name | urlize }}">#{{ $name }}</a>({{ $taxonomy.Count }})
+          <a href="/tags/{{ $name | urlize }}">#{{ $name }}</a> ({{ $taxonomy.Count }})
         </li>    
       {{end}}
 
