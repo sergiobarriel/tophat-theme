@@ -2,27 +2,16 @@
 
 <div class="list">
 
-    {{ range .Data.Pages }}
-
-    <article {{ with .Params.featured }} class="featured" {{ end }}>
+    <ul class="tags">
       
-      {{ partial "meta.html" . }}
+      {{ range .Data.Pages }}
       
-      <div class="article-header">
-
-        <a href="{{ .Permalink }}">
-          <h1 class="article-title">{{ .Title }}</h1>
-        </a>        
-        
-        <h2 class="article-excerpt">{{ .Params.excerpt }}</h2>
-        
-      </div>
+      <li class="tag">{{ .Title }}</li>
       
+      {{ end }}
 
-    </article>
+    </ul>
     
-    {{ end }}
-
 </div>
 
 {{ partial "pagination" . }}
