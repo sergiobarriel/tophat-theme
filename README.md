@@ -19,7 +19,9 @@ It supports:
 
 ## How to install
 
-### Downloading files
+You can use the theme in by two flavors, [downloading files from repository](https://github.com/sergiobarriel/tophat-theme#download-files-from-repository) or [using git submodule ](https://github.com/sergiobarriel/tophat-theme#use-git-submodule)
+
+### Download files from repository
 
 Download .zip file from [this link](https://github.com/sergiobarriel/tophat-theme/archive/refs/heads/main.zip) and extract the content to `themes/tophat` folder
 
@@ -27,7 +29,7 @@ Then open your `hugo.toml` file and add the following tag:
 
 `theme = "tophat"`
 
-### Git submodule
+### Use git submodule
 
 Run these commands to create a Hugo site with the [tophat](https://github.com/sergiobarriel/tophat-theme) theme
 
