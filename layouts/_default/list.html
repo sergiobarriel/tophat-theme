@@ -8,7 +8,7 @@
       
       {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
         <li class="tag">
-          <a href="/tags/{{ $name | urlize }}">#{{ $name }} ({{ $taxonomy.Count }})</a>
+          <a href="/tags/{{ $name | urlize }}">#{{ $name }}</a>({{ $taxonomy.Count }})
         </li>    
       {{end}}
 
