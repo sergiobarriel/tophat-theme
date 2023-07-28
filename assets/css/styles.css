@@ -216,6 +216,9 @@ html body div.content div.tag p.term span:before {
   content: "#";
   margin-left: 5px;
 }
+html body div.content div.tag p.term a {
+  color: #c33dd3;
+}
 html body div.content div.list ul.tags {
   list-style-type: none;
   padding: 0px;
