@@ -8,6 +8,8 @@
       
       {{ range .Data.Pages }}
       
+      {{ .Count }}
+      
       <li class="tag">
         <a href="{{ .Permalink }}">#{{ .Title }}</a>
       </li>
