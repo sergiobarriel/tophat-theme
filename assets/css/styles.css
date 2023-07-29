@@ -255,6 +255,26 @@ article div.article-content blockquote p, .single article div.article-content bl
     margin: 0px 0px 10px 0px;
   }
 }
+/* width */
+/* fonts family */
+/* fonts size */
+/* colors */
+/* defaults */
+.gist a {
+  color: inherit;
+}
+
+.highlight * {
+  word-wrap: break-word !important;
+  text-wrap: wrap !important;
+  white-space: -webkit-pre-wrap;
+  white-space: pre-wrap;
+  font-size: 17px !important;
+}
+.highlight pre {
+  padding: 5px;
+}
+
 div.list ul.tags {
   list-style-type: none;
   border: 1px solid #b5b5b5;
