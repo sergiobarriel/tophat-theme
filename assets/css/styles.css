@@ -211,7 +211,6 @@ article div.article-header h2.article-excerpt, .single article div.article-heade
 article div.article-content, .single article div.article-content {
   font-size: 17px;
   word-break: break-word;
-  /* code */
 }
 article div.article-content h1, article div.article-content h2, article div.article-content he, article div.article-content h4, article div.article-content h5, article div.article-content h6, .single article div.article-content h1, .single article div.article-content h2, .single article div.article-content he, .single article div.article-content h4, .single article div.article-content h5, .single article div.article-content h6 {
   font-size: 17px !important;
@@ -241,16 +240,6 @@ article div.article-content blockquote, .single article div.article-content bloc
 }
 article div.article-content blockquote p, .single article div.article-content blockquote p {
   margin: 0px;
-}
-article div.article-content .gist a, .single article div.article-content .gist a {
-  color: inherit;
-}
-article div.article-content .highlight *, .single article div.article-content .highlight * {
-  text-wrap: wrap !important;
-  font-size: 17px !important;
-}
-article div.article-content .highlight pre, .single article div.article-content .highlight pre {
-  padding: 5px;
 }
 
 /* width */

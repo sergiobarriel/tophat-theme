@@ -1,0 +1,25 @@
+@import 'variables';
+
+.gist {
+
+    a {
+        color: inherit;
+    }
+}
+
+.highlight {
+
+    * {
+        word-wrap: break-word !important;
+        text-wrap: wrap !important;
+
+        white-space: -webkit-pre-wrap;
+        white-space: pre-wrap;
+
+        font-size: $regular-font-size !important;
+    }
+
+    pre {
+        padding: 5px;
+    }
+}

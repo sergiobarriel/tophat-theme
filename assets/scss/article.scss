@@ -150,27 +150,5 @@ article, .single article {
             }
         }
 
-        /* code */ 
-
-        .gist {
-
-            a {
-                color: inherit;
-            }
-        }
-
-        .highlight {
-
-            * {
-                text-wrap: wrap !important;
-                font-size: $regular-font-size !important;
-            }
-
-            pre {
-                padding: 5px;
-            }
-        }
-
-
     }
 }
