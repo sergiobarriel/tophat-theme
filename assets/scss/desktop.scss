@@ -291,12 +291,8 @@ html {
                     }
 
                     div.hightlight {
-                        pre {
-                            code {
-                                span {
-                                    text-wrap: wrap;
-                                }
-                            }
+                        * {
+                            text-wrap: wrap;
                         }
                     }
 
