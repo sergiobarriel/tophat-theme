@@ -239,7 +239,9 @@ html {
                 }
 
                 div.article-content {
+                    
                     font-size: $regular-font-size;
+                    word-break: break-word;
 
                     h1, h2, he, h4, h5, h6 {
                         font-size: $regular-font-size !important;
@@ -268,7 +270,7 @@ html {
 
                     blockquote {
                         margin: 0;
-                        border-left: 3px solid $secondary-accent-color;
+                        border-left: 5px solid $secondary-accent-color;
                         padding-left: 5px;
                         font-style: italic;
                         padding: 10px;
