@@ -199,8 +199,8 @@ html body div.content article div.article-content blockquote p, html body div.co
 html body div.content article div.article-content .gist a, html body div.content .single article div.article-content .gist a {
   color: inherit;
 }
-html body div.content article div.article-content div.hightlight *, html body div.content .single article div.article-content div.hightlight * {
-  text-wrap: wrap;
+html body div.content article div.article-content div.highlight *, html body div.content .single article div.article-content div.highlight * {
+  text-wrap: wrap !important;
 }
 html body div.content article div.article-content p, html body div.content .single article div.article-content p {
   /* italic fonts inside paragraph has lighter color */
