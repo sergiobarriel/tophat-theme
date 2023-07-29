@@ -281,6 +281,8 @@ html {
                         }
                     }
 
+                    /* for github gists */
+
                     .gist {
 
                         a {
@@ -288,6 +290,17 @@ html {
                         }
                     }
 
+                    div.hightlight {
+                        pre {
+                            code {
+                                span {
+                                    text-wrap: wrap;
+                                }
+                            }
+                        }
+                    }
+
+                    /* */
                     p {
 
                         /* italic fonts inside paragraph has lighter color */
