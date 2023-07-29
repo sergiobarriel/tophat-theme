@@ -1,0 +1,115 @@
+@import 'variables';
+
+nav.blog-navigation {
+
+    margin: $regular-margin 0px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: normal;
+
+    /* navigation left column */
+
+    .left {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: normal;
+
+        .blog-logo {
+            img {
+                max-width: 80px;
+            }
+        }
+
+        .blog-info {
+            
+            .blog-title {
+
+                a {
+                    text-decoration: none;
+
+                    h1 {
+                        margin: 0px;
+                        color: $primary-color;
+                        font-family: $secondary-font;
+                        font-size: $super-big-font-size;
+                    }
+                }
+            }
+
+            .blog-description {
+
+                a {
+                    text-decoration: none;
+
+                    h2 {
+                        margin: 0px;
+                        color: $secondary-color;
+                        font-family: $secondary-font;
+                        font-size: $medium-font-size;
+                        font-weight: lighter;
+
+                        &:hover {
+                            color: $primary-accent-color;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+    /* navigation right column */
+
+    .right {
+
+        ul.links {
+            list-style-type: none;
+            font-family: $secondary-font;
+            font-size: $regular-font-size;
+            padding: 0px;
+
+            li.item {
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    color: $primary-color; 
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                &:after {
+                    content: "-";
+                    padding: 0px 5px;                
+                }
+                
+                &:first-child {
+                    a { padding-left: 0px; }
+                }
+                
+                &:last-child {
+                    a { padding-right: 0px; }
+    
+                    &:after {
+                        content: "";
+                        padding: 0px;               
+                    }
+                }                        
+            }
+
+        }
+
+    }
+}

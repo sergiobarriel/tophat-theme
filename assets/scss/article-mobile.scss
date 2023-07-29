@@ -1,0 +1,41 @@
+@import 'variables';
+
+@media screen and (max-width: $max-width) {
+
+    article, .single article {
+        div.article-meta {
+            
+            display: inherit;
+
+            ul.article-info {
+
+                margin: 0px 0px $medium-margin 0px;
+
+                li {
+                    &.reading-time {
+                        
+                    }
+
+                    &.words-count {
+                        
+                    }
+                }
+            }
+
+            ul.article-tags {
+                li {
+                   
+                }
+            }
+        }
+
+        div.article-header {
+            
+
+        }
+
+        div.article-content {
+
+        }
+    }
+}

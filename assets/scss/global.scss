@@ -1,0 +1,15 @@
+@import 'variables';
+
+html {
+    
+    background-color: $page-background-color;
+
+    body {
+
+        * {
+            border-radius: 0px !important;
+        }
+
+        font-family: $primary-font;
+    }
+}

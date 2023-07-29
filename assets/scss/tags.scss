@@ -1,0 +1,28 @@
+div.list {
+
+    p.text {
+
+    }
+
+    ul.tags {
+
+        list-style-type: none;
+
+        border: $default-border-size solid $secondary-color-light;
+        border-radius: 0px;
+        padding: $regular-padding;
+        margin-bottom: $regular-margin;
+        background-color: $article-background-color;
+
+        li.tag {
+            
+            display: inline-block;
+            margin-right: $medium-margin;
+            margin-bottom: $small-margin;
+
+            a {
+                color: $primary-accent-color;
+            }
+        }
+    }
+}

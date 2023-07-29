@@ -1,0 +1,15 @@
+@import 'variables';
+
+footer {
+    font-family: $secondary-font;
+    font-size: $regular-font-size;
+
+    a {
+        color: $primary-accent-color;
+        text-decoration: none;
+            
+        &:hover {
+            text-decoration: underline;
+        }                
+    }
+}

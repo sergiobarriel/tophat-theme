@@ -1,0 +1,32 @@
+@media screen and (max-width: $max-width) {
+
+
+    nav.blog-navigation {
+        .left {
+
+        }
+
+        .right {
+            div.blog-links {
+                ul {
+
+                    margin-right: $regular-margin;
+
+                    li {
+
+                        display: inherit !important;
+                        margin-bottom: $small-margin;
+                        
+                        &.page {
+                            display: none;
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@import 'variables';
+
+@media screen and (max-width: $max-width) {
+
+    footer.footer {
+        padding: 0px $regular-margin;
+    }
+}

@@ -1,0 +1,41 @@
+@import 'variables';
+
+div.pagination {
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+    
+    p.total {
+        margin: 0px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0px;
+
+        li {
+            display: inline-block;
+
+            a {
+                color: $primary-accent-color;
+
+                span {
+                    color: $primary-color;
+                    vertical-align: middle;
+                }
+            }
+
+            &.older {
+
+            }
+
+            &.newer {
+                margin-left: $regular-margin;
+            }
+        }
+    }
+
+}

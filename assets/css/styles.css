@@ -1,3 +1,4 @@
+/* width */
 /* fonts family */
 /* fonts size */
 /* colors */
@@ -11,11 +12,33 @@ html body {
 html body * {
   border-radius: 0px !important;
 }
-html body div.content {
+
+/* width */
+/* fonts family */
+/* fonts size */
+/* colors */
+/* defaults */
+div.content {
   width: 800px;
   margin: 0 auto;
 }
-html body div.content nav.blog-navigation {
+
+/* width */
+/* fonts family */
+/* fonts size */
+/* colors */
+/* defaults */
+@media screen and (max-width: 850px) {
+  div.content {
+    width: 100%;
+  }
+}
+/* width */
+/* fonts family */
+/* fonts size */
+/* colors */
+/* defaults */
+nav.blog-navigation {
   margin: 15px 0px;
   display: flex;
   flex-direction: row;
@@ -26,7 +49,7 @@ html body div.content nav.blog-navigation {
   /* navigation left column */
   /* navigation right column */
 }
-html body div.content nav.blog-navigation .left {
+nav.blog-navigation .left {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -34,73 +57,89 @@ html body div.content nav.blog-navigation .left {
   align-items: stretch;
   align-content: normal;
 }
-html body div.content nav.blog-navigation .left .blog-logo img {
+nav.blog-navigation .left .blog-logo img {
   max-width: 80px;
 }
-html body div.content nav.blog-navigation .left .blog-info .blog-title a {
+nav.blog-navigation .left .blog-info .blog-title a {
   text-decoration: none;
 }
-html body div.content nav.blog-navigation .left .blog-info .blog-title a h1 {
+nav.blog-navigation .left .blog-info .blog-title a h1 {
   margin: 0px;
   color: #000;
   font-family: "Open Sans", sans-serif;
   font-size: 28px;
 }
-html body div.content nav.blog-navigation .left .blog-info .blog-description a {
+nav.blog-navigation .left .blog-info .blog-description a {
   text-decoration: none;
 }
-html body div.content nav.blog-navigation .left .blog-info .blog-description a h2 {
+nav.blog-navigation .left .blog-info .blog-description a h2 {
   margin: 0px;
   color: #757575;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: lighter;
 }
-html body div.content nav.blog-navigation .left .blog-info .blog-description a h2:hover {
+nav.blog-navigation .left .blog-info .blog-description a h2:hover {
   color: #c33dd3;
 }
-html body div.content nav.blog-navigation .right ul.links {
+nav.blog-navigation .right ul.links {
   list-style-type: none;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   padding: 0px;
 }
-html body div.content nav.blog-navigation .right ul.links li.item {
+nav.blog-navigation .right ul.links li.item {
   display: inline-block;
 }
-html body div.content nav.blog-navigation .right ul.links li.item a {
+nav.blog-navigation .right ul.links li.item a {
   text-decoration: none;
   color: #000;
 }
-html body div.content nav.blog-navigation .right ul.links li.item a:hover {
+nav.blog-navigation .right ul.links li.item a:hover {
   text-decoration: underline;
 }
-html body div.content nav.blog-navigation .right ul.links li.item:after {
+nav.blog-navigation .right ul.links li.item:after {
   content: "-";
   padding: 0px 5px;
 }
-html body div.content nav.blog-navigation .right ul.links li.item:first-child a {
+nav.blog-navigation .right ul.links li.item:first-child a {
   padding-left: 0px;
 }
-html body div.content nav.blog-navigation .right ul.links li.item:last-child a {
+nav.blog-navigation .right ul.links li.item:last-child a {
   padding-right: 0px;
 }
-html body div.content nav.blog-navigation .right ul.links li.item:last-child:after {
+nav.blog-navigation .right ul.links li.item:last-child:after {
   content: "";
   padding: 0px;
 }
-html body div.content article, html body div.content .single article {
+
+@media screen and (max-width: 850px) {
+  nav.blog-navigation .right div.blog-links ul {
+    margin-right: 15px;
+  }
+  nav.blog-navigation .right div.blog-links ul li {
+    display: inherit !important;
+    margin-bottom: 5px;
+  }
+  nav.blog-navigation .right div.blog-links ul li.page {
+    display: none;
+  }
+  nav.blog-navigation .right div.blog-links ul li:after {
+    display: none;
+  }
+}
+article, .single article {
   border: 1px solid #b5b5b5;
   border-radius: 0px;
   padding: 15px;
   margin-bottom: 15px;
   background-color: #fff;
 }
-html body div.content article.featured, html body div.content .single article.featured {
+article.featured, .single article.featured {
   background-color: #ffefff;
   border-color: #c33dd3;
 }
-html body div.content article div.article-meta, html body div.content .single article div.article-meta {
+article div.article-meta, .single article div.article-meta {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -110,82 +149,89 @@ html body div.content article div.article-meta, html body div.content .single ar
   color: #757575;
   margin-bottom: 15px;
 }
-html body div.content article div.article-meta ul.article-info, html body div.content .single article div.article-meta ul.article-info {
+article div.article-meta ul.article-info, .single article div.article-meta ul.article-info {
   font-family: "Bitter", serif;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
 }
-html body div.content article div.article-meta ul.article-info li, html body div.content .single article div.article-meta ul.article-info li {
+article div.article-meta ul.article-info li, .single article div.article-meta ul.article-info li {
   display: inline-block;
   margin-right: 5px;
 }
-html body div.content article div.article-meta ul.article-info li span, html body div.content .single article div.article-meta ul.article-info li span {
+article div.article-meta ul.article-info li span, .single article div.article-meta ul.article-info li span {
   margin-right: 5px;
   font-size: 17px;
   vertical-align: bottom;
   color: #b5b5b5;
 }
-html body div.content article div.article-meta ul.article-tags, html body div.content .single article div.article-meta ul.article-tags {
+article div.article-meta ul.article-tags, .single article div.article-meta ul.article-tags {
   font-family: "Open Sans", sans-serif;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
 }
-html body div.content article div.article-meta ul.article-tags li, html body div.content .single article div.article-meta ul.article-tags li {
+article div.article-meta ul.article-tags li, .single article div.article-meta ul.article-tags li {
   display: inline-block;
   margin-right: 5px;
 }
-html body div.content article div.article-meta ul.article-tags li a, html body div.content .single article div.article-meta ul.article-tags li a {
+article div.article-meta ul.article-tags li a, .single article div.article-meta ul.article-tags li a {
   color: #c33dd3;
   text-decoration: none;
 }
-html body div.content article div.article-meta ul.article-tags li a:hover, html body div.content .single article div.article-meta ul.article-tags li a:hover {
+article div.article-meta ul.article-tags li a:hover, .single article div.article-meta ul.article-tags li a:hover {
   text-decoration: underline;
 }
-html body div.content article div.article-header, html body div.content .single article div.article-header {
+article div.article-header, .single article div.article-header {
   /* on single template not wrapped with <a> */
 }
-html body div.content article div.article-header h1.article-title, html body div.content .single article div.article-header h1.article-title {
+article div.article-header h1.article-title, .single article div.article-header h1.article-title {
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
   margin: 0px 0px 10px 0px;
 }
-html body div.content article div.article-header a, html body div.content .single article div.article-header a {
+article div.article-header a, .single article div.article-header a {
   text-decoration: none;
   color: #000;
 }
-html body div.content article div.article-header a:hover, html body div.content .single article div.article-header a:hover {
+article div.article-header a:hover, .single article div.article-header a:hover {
   text-decoration: underline;
 }
-html body div.content article div.article-header a h1.article-title, html body div.content .single article div.article-header a h1.article-title {
+article div.article-header a h1.article-title, .single article div.article-header a h1.article-title {
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
   margin: 0px 0px 10px 0px;
 }
-html body div.content article div.article-header h2.article-excerpt, html body div.content .single article div.article-header h2.article-excerpt {
+article div.article-header h2.article-excerpt, .single article div.article-header h2.article-excerpt {
   color: #757575;
   font-size: 22px;
   font-weight: lighter;
   margin: 0px;
 }
-html body div.content article div.article-content, html body div.content .single article div.article-content {
+article div.article-content, .single article div.article-content {
   font-size: 17px;
   word-break: break-word;
-  /* for github gists */
-  /* */
+  /* code */
 }
-html body div.content article div.article-content h1, html body div.content article div.article-content h2, html body div.content article div.article-content he, html body div.content article div.article-content h4, html body div.content article div.article-content h5, html body div.content article div.article-content h6, html body div.content .single article div.article-content h1, html body div.content .single article div.article-content h2, html body div.content .single article div.article-content he, html body div.content .single article div.article-content h4, html body div.content .single article div.article-content h5, html body div.content .single article div.article-content h6 {
+article div.article-content h1, article div.article-content h2, article div.article-content he, article div.article-content h4, article div.article-content h5, article div.article-content h6, .single article div.article-content h1, .single article div.article-content h2, .single article div.article-content he, .single article div.article-content h4, .single article div.article-content h5, .single article div.article-content h6 {
   font-size: 17px !important;
 }
-html body div.content article div.article-content a, html body div.content .single article div.article-content a {
+article div.article-content a, .single article div.article-content a {
   color: #c33dd3;
   text-decoration: none;
 }
-html body div.content article div.article-content a:hover, html body div.content .single article div.article-content a:hover {
+article div.article-content a:hover, .single article div.article-content a:hover {
   text-decoration: underline;
 }
-html body div.content article div.article-content blockquote, html body div.content .single article div.article-content blockquote {
+article div.article-content em, .single article div.article-content em {
+  color: #757575;
+  margin-right: 3px;
+}
+article div.article-content img, .single article div.article-content img {
+  width: 100%;
+  border: 5px solid #f7f7f7;
+}
+article div.article-content blockquote, .single article div.article-content blockquote {
   margin: 0;
   border-left: 5px solid #00a099;
   padding-left: 5px;
@@ -193,49 +239,34 @@ html body div.content article div.article-content blockquote, html body div.cont
   padding: 10px;
   margin-bottom: 15px;
 }
-html body div.content article div.article-content blockquote p, html body div.content .single article div.article-content blockquote p {
+article div.article-content blockquote p, .single article div.article-content blockquote p {
   margin: 0px;
 }
-html body div.content article div.article-content .gist a, html body div.content .single article div.article-content .gist a {
+article div.article-content .gist a, .single article div.article-content .gist a {
   color: inherit;
 }
-html body div.content article div.article-content div.highlight *, html body div.content .single article div.article-content div.highlight * {
+article div.article-content .highlight *, .single article div.article-content .highlight * {
   text-wrap: wrap !important;
+  font-size: 17px !important;
 }
-html body div.content article div.article-content p, html body div.content .single article div.article-content p {
-  /* italic fonts inside paragraph has lighter color */
-}
-html body div.content article div.article-content p em, html body div.content .single article div.article-content p em {
-  color: #757575;
-  margin-right: 3px;
-}
-html body div.content article div.article-content .highlight pre, html body div.content .single article div.article-content .highlight pre {
+article div.article-content .highlight pre, .single article div.article-content .highlight pre {
   padding: 5px;
 }
-html body div.content article div.article-content img, html body div.content .single article div.article-content img {
-  width: 100%;
-  border: 5px solid #f7f7f7;
+
+/* width */
+/* fonts family */
+/* fonts size */
+/* colors */
+/* defaults */
+@media screen and (max-width: 850px) {
+  article div.article-meta, .single article div.article-meta {
+    display: inherit;
+  }
+  article div.article-meta ul.article-info, .single article div.article-meta ul.article-info {
+    margin: 0px 0px 10px 0px;
+  }
 }
-html body div.content div.tag p {
-  display: inline-block;
-}
-html body div.content div.tag p.term span {
-  color: #c33dd3;
-}
-html body div.content div.tag p.term span:before {
-  content: "#";
-  margin-left: 5px;
-}
-html body div.content div.tag p.term a {
-  color: #c33dd3;
-}
-html body div.content div.tag p.all {
-  float: right;
-}
-html body div.content div.tag p.all a {
-  color: #c33dd3;
-}
-html body div.content div.list ul.tags {
+div.list ul.tags {
   list-style-type: none;
   border: 1px solid #b5b5b5;
   border-radius: 0px;
@@ -243,83 +274,83 @@ html body div.content div.list ul.tags {
   margin-bottom: 15px;
   background-color: #fff;
 }
-html body div.content div.list ul.tags li.tag {
+div.list ul.tags li.tag {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 5px;
 }
-html body div.content div.list ul.tags li.tag a {
+div.list ul.tags li.tag a {
   color: #c33dd3;
 }
-html body div.content div.pagination {
+
+div.tag p {
+  display: inline-block;
+}
+div.tag p.term span {
+  color: #c33dd3;
+}
+div.tag p.term span:before {
+  content: "#";
+  margin-left: 5px;
+}
+div.tag p.term a {
+  color: #c33dd3;
+}
+div.tag p.all {
+  float: right;
+}
+div.tag p.all a {
+  color: #c33dd3;
+}
+
+/* width */
+/* fonts family */
+/* fonts size */
+/* colors */
+/* defaults */
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+footer a {
+  color: #c33dd3;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* width */
+/* fonts family */
+/* fonts size */
+/* colors */
+/* defaults */
+div.pagination {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: baseline;
   display: flex;
 }
-html body div.content div.pagination p.total {
+div.pagination p.total {
   margin: 0px;
 }
-html body div.content div.pagination ul {
+div.pagination ul {
   list-style-type: none;
   padding: 0px;
 }
-html body div.content div.pagination ul li {
+div.pagination ul li {
   display: inline-block;
 }
-html body div.content div.pagination ul li a {
+div.pagination ul li a {
   color: #c33dd3;
 }
-html body div.content div.pagination ul li a span {
+div.pagination ul li a span {
   color: #000;
   vertical-align: middle;
 }
-html body div.content div.pagination ul li.newer {
+div.pagination ul li.newer {
   margin-left: 15px;
-}
-html body div.content footer {
-  font-family: "Open Sans", sans-serif;
-  font-size: 17px;
-}
-html body div.content footer a {
-  color: #c33dd3;
-  text-decoration: none;
-}
-html body div.content footer a:hover {
-  text-decoration: underline;
-}
-
-/* fonts family */
-/* fonts size */
-/* colors */
-/* defaults */
-@media screen and (max-width: 850px) {
-  html body div.content {
-    width: 100%;
-  }
-  html body div.content nav.blog-navigation .right div.blog-links ul {
-    margin-right: 15px;
-  }
-  html body div.content nav.blog-navigation .right div.blog-links ul li {
-    display: inherit !important;
-    margin-bottom: 5px;
-  }
-  html body div.content nav.blog-navigation .right div.blog-links ul li.page {
-    display: none;
-  }
-  html body div.content nav.blog-navigation .right div.blog-links ul li:after {
-    display: none;
-  }
-  html body div.content article div.article-meta, html body div.content .single article div.article-meta {
-    display: inherit;
-  }
-  html body div.content article div.article-meta ul.article-info, html body div.content .single article div.article-meta ul.article-info {
-    margin: 0px 0px 10px 0px;
-  }
-  html body div.content footer.footer {
-    padding: 0px 15px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
