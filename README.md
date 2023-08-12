@@ -65,10 +65,14 @@ The default pagination is 10 items, but you can set a different number.
 ### Parameters
 ```toml
 [params]
+    
+  subtitle = "Your blog subtitle"
+  description = "Your blog description"
+  author = "Sergio Barriel"
+
   main = "post"
   featured = true
-  description = "Your blog description"
-
+  
   # You can customize the visibility of some elements like date, reading time, words counter and tags inside article by setting true or false
   show_date_on_article = true
   show_reading_time_on_article = true
