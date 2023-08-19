@@ -15,6 +15,12 @@ code {
     background-color: rgba($secondary-accent-color, 0.20);
 }
 
+pre {
+    code {
+        background-color: initial;
+    }
+}
+
 /* enrich blocks of code */
 
 div.highlight {
