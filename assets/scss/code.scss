@@ -1,11 +1,21 @@
 @import 'variables';
 
+/* code embed from Github Gist */
+
 .gist {
 
     a {
         color: inherit;
     }
 }
+
+/* inline blocks of code */
+
+code {
+    background-color: rgba($secondary-accent-color, 0.20);
+}
+
+/* enrich blocks of code */
 
 div.highlight {
 
@@ -17,10 +27,6 @@ div.highlight {
         white-space: pre-wrap;
 
         font-size: $regular-font-size !important;
-    }
-
-    code {
-        background-color: rgba($secondary-accent-color, 0.20);
     }
 
     > pre {

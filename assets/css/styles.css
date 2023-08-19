@@ -279,19 +279,23 @@ article div.article-content blockquote p, .single article div.article-content bl
 /* fonts size */
 /* colors */
 /* defaults */
+/* code embed from Github Gist */
 .gist a {
   color: inherit;
 }
 
+/* inline blocks of code */
+code {
+  background-color: rgba(0, 160, 153, 0.2);
+}
+
+/* enrich blocks of code */
 div.highlight * {
   word-wrap: break-word !important;
   text-wrap: wrap !important;
   white-space: -webkit-pre-wrap;
   white-space: pre-wrap;
   font-size: 17px !important;
-}
-div.highlight code {
-  background-color: rgba(0, 160, 153, 0.2);
 }
 div.highlight > pre {
   padding: 5px;
