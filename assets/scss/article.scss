@@ -112,6 +112,11 @@ article, .single article {
         font-size: $regular-font-size;
         word-break: break-word;
 
+        h1, h2, h3, h4, h5, h6 {
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+
         h1 { font-size: $super-big-font-size !important; }
         h2 { font-size: $big-font-size !important; }
         h3 { font-size: $medium-font-size !important; }

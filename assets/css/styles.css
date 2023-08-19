@@ -212,6 +212,10 @@ article div.article-content, .single article div.article-content {
   font-size: 17px;
   word-break: break-word;
 }
+article div.article-content h1, article div.article-content h2, article div.article-content h3, article div.article-content h4, article div.article-content h5, article div.article-content h6, .single article div.article-content h1, .single article div.article-content h2, .single article div.article-content h3, .single article div.article-content h4, .single article div.article-content h5, .single article div.article-content h6 {
+  text-decoration: underline;
+  font-weight: lighter;
+}
 article div.article-content h1, .single article div.article-content h1 {
   font-size: 28px !important;
 }
