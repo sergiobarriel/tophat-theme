@@ -129,7 +129,7 @@ article, .single article {
             text-decoration: underline;
             
             &:hover {
-                text-decoration: underline;
+                background-color: rgba(#c33dd3, 0.2);
             }
         }
 
@@ -137,6 +137,7 @@ article, .single article {
 
         em {
             color: $secondary-color;
+            background-color: rgba($primary-color, $alpha: 0.2);
             margin-right: 3px;
         }
 

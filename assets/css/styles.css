@@ -239,10 +239,11 @@ article div.article-content a, .single article div.article-content a {
   text-decoration: underline;
 }
 article div.article-content a:hover, .single article div.article-content a:hover {
-  text-decoration: underline;
+  background-color: rgba(195, 61, 211, 0.2);
 }
 article div.article-content em, .single article div.article-content em {
   color: #757575;
+  background-color: rgba(0, 0, 0, 0.2);
   margin-right: 3px;
 }
 article div.article-content img, .single article div.article-content img {
