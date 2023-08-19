@@ -289,6 +289,10 @@ code {
   background-color: rgba(0, 160, 153, 0.2);
 }
 
+pre code {
+  background-color: initial;
+}
+
 /* enrich blocks of code */
 div.highlight * {
   word-wrap: break-word !important;
