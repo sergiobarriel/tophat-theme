@@ -299,7 +299,7 @@ div.highlight * {
   text-wrap: wrap !important;
   white-space: -webkit-pre-wrap;
   white-space: pre-wrap;
-  font-size: 17px !important;
+  font-size: 16px !important;
 }
 div.highlight > pre {
   padding: 5px;

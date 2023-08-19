@@ -32,7 +32,7 @@ div.highlight {
         white-space: -webkit-pre-wrap;
         white-space: pre-wrap;
 
-        font-size: $regular-font-size !important;
+        font-size: $regular-font-size - 1 !important;
     }
 
     > pre {
