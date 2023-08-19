@@ -112,13 +112,16 @@ article, .single article {
         font-size: $regular-font-size;
         word-break: break-word;
 
-        h1, h2, he, h4, h5, h6 {
-            font-size: $regular-font-size !important;
-        }
+        h1 { font-size: $super-big-font-size !important; }
+        h2 { font-size: $big-font-size !important; }
+        h3 { font-size: $medium-font-size !important; }
+        h4 { font-size: $regular-font-size !important; }
+        h5 { font-size: $regular-font-size !important; }
+        h6 { font-size: $regular-font-size !important; }
 
         a {
             color: $primary-accent-color;     
-            text-decoration: none;
+            text-decoration: underline;
             
             &:hover {
                 text-decoration: underline;
@@ -148,6 +151,10 @@ article, .single article {
             p {
                 margin: 0px;
             }
+        }
+
+        code {
+            background-color: rgba($secondary-accent-color, 0.20);
         }
 
     }

@@ -212,12 +212,27 @@ article div.article-content, .single article div.article-content {
   font-size: 17px;
   word-break: break-word;
 }
-article div.article-content h1, article div.article-content h2, article div.article-content he, article div.article-content h4, article div.article-content h5, article div.article-content h6, .single article div.article-content h1, .single article div.article-content h2, .single article div.article-content he, .single article div.article-content h4, .single article div.article-content h5, .single article div.article-content h6 {
+article div.article-content h1, .single article div.article-content h1 {
+  font-size: 28px !important;
+}
+article div.article-content h2, .single article div.article-content h2 {
+  font-size: 22px !important;
+}
+article div.article-content h3, .single article div.article-content h3 {
+  font-size: 20px !important;
+}
+article div.article-content h4, .single article div.article-content h4 {
+  font-size: 17px !important;
+}
+article div.article-content h5, .single article div.article-content h5 {
+  font-size: 17px !important;
+}
+article div.article-content h6, .single article div.article-content h6 {
   font-size: 17px !important;
 }
 article div.article-content a, .single article div.article-content a {
   color: #c33dd3;
-  text-decoration: none;
+  text-decoration: underline;
 }
 article div.article-content a:hover, .single article div.article-content a:hover {
   text-decoration: underline;
@@ -240,6 +255,9 @@ article div.article-content blockquote, .single article div.article-content bloc
 }
 article div.article-content blockquote p, .single article div.article-content blockquote p {
   margin: 0px;
+}
+article div.article-content code, .single article div.article-content code {
+  background-color: rgba(0, 160, 153, 0.2);
 }
 
 /* width */
@@ -264,14 +282,14 @@ article div.article-content blockquote p, .single article div.article-content bl
   color: inherit;
 }
 
-.highlight * {
+div.highlight * {
   word-wrap: break-word !important;
   text-wrap: wrap !important;
   white-space: -webkit-pre-wrap;
   white-space: pre-wrap;
   font-size: 17px !important;
 }
-.highlight pre {
+div.highlight > pre {
   padding: 5px;
 }
 

@@ -7,7 +7,7 @@
     }
 }
 
-.highlight {
+div.highlight {
 
     * {
         word-wrap: break-word !important;
@@ -19,7 +19,7 @@
         font-size: $regular-font-size !important;
     }
 
-    pre {
+    > pre {
         padding: 5px;
     }
 }
