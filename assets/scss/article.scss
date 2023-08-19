@@ -137,7 +137,7 @@ article, .single article {
 
         img {
             width: 100%;
-            border: 5px solid $image-border-color;
+            border: 1px solid $image-border-color;
         }
 
         blockquote {
@@ -153,9 +153,7 @@ article, .single article {
             }
         }
 
-        code {
-            background-color: rgba($secondary-accent-color, 0.20);
-        }
+
 
     }
 }

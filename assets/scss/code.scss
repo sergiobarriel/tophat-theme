@@ -19,7 +19,15 @@ div.highlight {
         font-size: $regular-font-size !important;
     }
 
+    code {
+        background-color: rgba($secondary-accent-color, 0.20);
+    }
+
     > pre {
         padding: 5px;
+
+        code {
+            background-color: initial;
+        }
     }
 }

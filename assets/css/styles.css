@@ -243,7 +243,7 @@ article div.article-content em, .single article div.article-content em {
 }
 article div.article-content img, .single article div.article-content img {
   width: 100%;
-  border: 5px solid #f7f7f7;
+  border: 1px solid #b5b5b5;
 }
 article div.article-content blockquote, .single article div.article-content blockquote {
   margin: 0;
@@ -255,9 +255,6 @@ article div.article-content blockquote, .single article div.article-content bloc
 }
 article div.article-content blockquote p, .single article div.article-content blockquote p {
   margin: 0px;
-}
-article div.article-content code, .single article div.article-content code {
-  background-color: rgba(0, 160, 153, 0.2);
 }
 
 /* width */
@@ -289,8 +286,14 @@ div.highlight * {
   white-space: pre-wrap;
   font-size: 17px !important;
 }
+div.highlight code {
+  background-color: rgba(0, 160, 153, 0.2);
+}
 div.highlight > pre {
   padding: 5px;
+}
+div.highlight > pre code {
+  background-color: initial;
 }
 
 div.list ul.tags {
