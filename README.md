@@ -147,7 +147,7 @@ There are some `scss` files inside `assets/scss` folder, so you can customize th
 
 If you like the project, you can consider making a donation at [ko-fi.com](https://ko-fi.com/sergiobarriel)
 
-## Contributors
+## Contributors / Collaborators
 
 These individuals have contributed to the repository through suggestions, error corrections, or by opening issues. Thanks 😊
 
