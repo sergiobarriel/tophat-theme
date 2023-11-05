@@ -142,3 +142,11 @@ See the [Style Gallery](https://xyproto.github.io/splash/docs/all.html#friendly)
 There are some `scss` files inside `assets/scss` folder, so you can customize the styles as you wish and then transpile by using [sass](https://sass-lang.com/dart-sass/) command
 
 `sass styles.scss ../css/styles.css`
+
+## Sponsor
+
+If you like the project, you can consider making a donation at [ko-fi.com](https://ko-fi.com/sergiobarriel)
+
+## Support
+
+You can contact me via Twitter [@sergiobarriel](https://twitter.com/sergiobarriel), or if you have an [issue](https://github.com/sergiobarriel/tophat-theme/issues), you can open one 🙂
