@@ -147,6 +147,13 @@ There are some `scss` files inside `assets/scss` folder, so you can customize th
 
 If you like the project, you can consider making a donation at [ko-fi.com](https://ko-fi.com/sergiobarriel)
 
+## Contributors
+
+These individuals have contributed to the repository through suggestions, error corrections, or by opening issues. Thanks 😊
+
+- [foldfree](https://github.com/foldfree)
+- [christian-cell](https://github.com/christian-cell)
+
 ## Support
 
 You can contact me via Twitter [@sergiobarriel](https://twitter.com/sergiobarriel), or if you have an [issue](https://github.com/sergiobarriel/tophat-theme/issues), you can open one 🙂
